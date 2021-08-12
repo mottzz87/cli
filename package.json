@@ -1,0 +1,29 @@
+{
+	"name": "cli-vane",
+	"version": "1.0.0",
+	"description": "simple vue cli",
+	"main": "index.js",
+	"bin": {
+		"vane": "./bin/cli.js"
+	},
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": {
+		"name": "Vane",
+		"email": "hualuna87@126.com"
+	},
+	"license": "MIT",
+	"dependencies": {
+		"axios": "^0.21.1",
+		"chalk": "^4.1.2",
+		"commander": "^8.1.0",
+		"download-git-repo": "^3.0.2",
+		"figlet": "^1.5.0",
+		"fs-extra": "^10.0.0",
+		"inquirer": "^8.1.2",
+		"ora": "^5.4.1",
+		"path": "^0.12.7",
+		"util": "^0.12.4"
+	}
+}
